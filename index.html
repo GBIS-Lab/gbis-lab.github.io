@@ -215,7 +215,6 @@
                 <li  class="poc-card">
                     <h3>POC #6 : Thymleaf + JPA</h3>
                     <p>Ajout de JPA pour une gestion ORM plus moderne.</p>
-                    <a class="btn" href="https://github.com/GBIS-Lab/6-springbatch-csv-reader-bdd-modular-jpa-Thymleaf">Code source</a>
                     <p>
                         <strong>Architecture :</strong>
                         CSV → Spring Batch → JPA → Thymleaf
@@ -257,28 +256,190 @@
                     </span>
 
                 </li>
+                <!-- POC #7 -->
                 <li  class="poc-card">
-                    <h3>API REST + Angular</h3>
+                    <h3>POC #7 : API REST + Angular</h3>
                     <p>Le front Angular interagit avec l'API Spring Boot exposant les résultats.</p>
-                    <a class="btn" href="https://github.com/GBIS-Lab/7-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular">Code source</a>
                     <a class="btn" href="https://maison.gbis.fr:8081">Tester en direct</a>
-                </li>
+                
+                    <p>
+                        <strong>Architecture :</strong>
+                        CSV → Spring Batch → JPA → Thymleaf + API REST Angular
+                    </p>
 
+                    <div class="poc-actions">
+
+                        <a class="btn"
+                        href="https://five-springbatch-csv-reader-bdd-modular.onrender.com/smartphones"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            ▶ Ouvrir la démo
+                        </a>
+
+                        <a class="btn"
+                        href="https://github.com/GBIS-Lab/7-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Code source
+                        </a>
+
+                        <a class="btn"
+                        href="https://github.com/GBIS-Lab/7-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular/issues"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Issues
+                        </a>
+
+                        <a class="btn"
+                        href="https://dashboard.render.com/web/srv-danuhc8ae00c73a4beug/logs"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Logs Render
+                        </a>
+                    </div>
+
+                    <span class="status status-dev">
+                        ◐ Démonstrateur
+                    </span>
+                </li>
+                <!-- POC #8 -->
                 <li  class="poc-card">
-                    <h3>API REST + Angular + Drag&Drop</h3>
+                    <h3>POC #8 : API REST + Angular + Drag&Drop</h3>
                     <p>Le front Angular inclue une zone de drag&drop afin d'y insérer un fichier au format CSV. A la soumission, l'interface interagit avec l'API Spring Boot exposant les résultats.</p>
-                    <a class="btn" href="https://github.com/GBIS-Lab/8-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular-DragDrop">Code source</a>
+                                    
+                    <p>
+                        <strong>Architecture :</strong>
+                        CSV → Spring Batch → JPA → Thymleaf  → API REST  → Angular w/ Drag&Drop
+                    </p>
+
+                    <div class="poc-actions">
+
+                        <a class="btn"
+                        href="https://five-springbatch-csv-reader-bdd-modular.onrender.com/smartphones"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            ▶ Ouvrir la démo
+                        </a>
+
+                        <a class="btn"
+                        href="https://github.com/GBIS-Lab/8-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular-DragDrop"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Code source
+                        </a>
+
+                        <a class="btn"
+                        href="https://github.com/GBIS-Lab/8-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular-DragDrop/issues"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Issues
+                        </a>
+
+                        <a class="btn"
+                        href="https://dashboard.render.com/web/srv-danuhc8ae00c73a4beug/logs"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Logs Render
+                        </a>
+                    </div>
+
+                    <span class="status status-dev">
+                        ◐ Démonstrateur
+                    </span>
                 </li>
+                <!-- POC #9 -->
                 <li  class="poc-card">
-                    <h3>API REST + Angular + Drag&Drop + Kafka</h3>
+                    <h3>POC #9 : API REST + Angular + Drag&Drop + Kafka</h3>
                     <p>Le front Angular interagit avec l'API Spring Boot exposant les résultats toujours avec la zone drag&drop en point d'entrée. Le batch est en attente de données afin de les donner en entrée à un producer kafka qui formate l'ensemble des données passées en entrée, puis un comsumer kafka qui lit chaque message produit (1 entrée = 1 message)</p>
-                    <a class="btn" href="https://github.com/GBIS-Lab/9-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular-DragDrop-Kafka">Code source</a>
+                                        
+                    <p>
+                        <strong>Architecture :</strong>
+                        CSV → Spring Batch → Kafka →  JPA → Thymleaf  → API REST  → Angular w/ Drag&Drop 
+                    </p>
+
+                    <div class="poc-actions">
+
+                        <a class="btn"
+                        href="https://five-springbatch-csv-reader-bdd-modular.onrender.com/smartphones"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            ▶ Ouvrir la démo
+                        </a>
+
+                        <a class="btn"
+                        href="https://github.com/GBIS-Lab/9-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular-DragDrop-Kafka"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Code source
+                        </a>
+
+                        <a class="btn"
+                        href="https://github.com/GBIS-Lab/9-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular-DragDrop-Kafka/issues"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Issues
+                        </a>
+
+                        <a class="btn"
+                        href="https://dashboard.render.com/web/srv-danuhc8ae00c73a4beug/logs"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Logs Render
+                        </a>
+                    </div>
+
+                    <span class="status status-dev">
+                        ◐ Démonstrateur
+                    </span>
+                
                 </li>
+                <!-- POC #10 -->
                 <li  class="poc-card">
-                    <h3>API REST + Angular + Drag&Drop + Kafka + Charts</h3>
+                    <h3>POC #10 : API REST + Angular + Drag&Drop + Kafka + Charts</h3>
                     <p>Le front Angular interagit avec l'API Spring Boot exposant les résultats. Une couche supplémentaire Angular permet d'afficher des classements via des diagrammes/histogrammes par typologie de données de chaque enregistrement passé en entrée</p>
-                    <a class="btn" href="https://github.com/GBIS-Lab/10-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular-DragDrop-Kafka-Charts">Code source</a>
+                                        
+                    <p>
+                        <strong>Architecture :</strong>
+                        CSV → Spring Batch → Kafka →  JPA → Thymleaf  → API REST  → Angular w/ Drag&Drop → Charts
+                    </p>
+
+                    <div class="poc-actions">
+
+                        <a class="btn"
+                        href="https://five-springbatch-csv-reader-bdd-modular.onrender.com/smartphones"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            ▶ Ouvrir la démo
+                        </a>
+
+                        <a class="btn"
+                        href="https://github.com/GBIS-Lab/10-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular-DragDrop-Kafka-Charts"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Code source
+                        </a>
+
+                        <a class="btn"
+                        href="https://github.com/GBIS-Lab/10-springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular-DragDrop-Kafka-Charts/issues"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Issues
+                        </a>
+
+                        <a class="btn"
+                        href="https://dashboard.render.com/web/srv-danuhc8ae00c73a4beug/logs"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Logs Render
+                        </a>
+                    </div>
+
+                    <span class="status status-dev">
+                        ◐ Démonstrateur
+                    </span>
+
                 </li>
+                <!-- POC #11 -->
                 <li class="poc-card">
 
                     <h3>POC #11 : Spring Batch + REST + Angular + Kafka + Dashboard</h3>
