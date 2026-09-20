@@ -52,6 +52,57 @@
             margin-top: 1rem;
             margin-right: 0.5rem;
         }
+        .poc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .poc-card {
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+        }
+
+        .poc-card:hover {
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+            transform: translateY(-2px);
+        }
+
+        .poc-card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .poc-card p {
+            line-height: 1.6;
+        }
+
+        .poc-actions {
+            margin-top: 1rem;
+        }
+
+        .status {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.3rem 0.7rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
+        .status-online {
+            background-color: #dff5e1;
+            color: #217a2b;
+        }
+
+        .status-dev {
+            background-color: #fff3cd;
+            color: #856404;
+        }
         footer {
             background-color: #222;
             color: #bbb;
@@ -128,6 +179,50 @@
                     rel="noopener noreferrer">
                         ▶ Ouvrir la démo
                     </a>
+                </li>
+                <li class="poc-card">
+
+                    <h3>POC #5 — Spring Batch + CSV + H2 + Thymeleaf</h3>
+
+                    <p>
+                        Intégration de Spring Batch avec la lecture d'un fichier CSV,
+                        la persistance H2 et une interface web Thymeleaf.
+                    </p>
+
+                    <p>
+                        <strong>Architecture :</strong>
+                        CSV → Spring Batch → H2 → Thymeleaf
+                    </p>
+
+                    <div class="poc-actions">
+
+                        <a class="btn"
+                        href="https://five-springbatch-csv-reader-bdd-modular.onrender.com/smartphones"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            ▶ Ouvrir la démo
+                        </a>
+
+                        <a class="btn"
+                        href="https://github.com/GBIS-Lab/5-springbatch-csv-reader-bdd-modular-h2-Thymleaf"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Code source
+                        </a>
+
+                        <a class="btn"
+                        href="https://github.com/GBIS-Lab/5-springbatch-csv-reader-bdd-modular-h2-Thymleaf/issues"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Issues
+                        </a>
+
+                    </div>
+
+                    <span class="status status-online">
+                        ● Déployé sur Render
+                    </span>
+
                 </li>
                 <li>
                     <h3>Thymleaf + JPA</h3>
